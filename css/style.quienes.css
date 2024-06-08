@@ -37,6 +37,8 @@ section h2 {
     background-color: #686565;display: flex;
     justify-content: center;
 }
+    
+
 
 section p {
     background-color: #686565;
@@ -44,4 +46,19 @@ section p {
     border-bottom: 15px;
     padding-top: 30 px ;
 
+}
+
+.redes {
+    margin-top: 45px;
+    display: flex;
+   
+ }    
+
+ .redes li ul{
+
+     text-align: none;
+ }
+
+body {
+    background-color: #929090;
 }

@@ -44,15 +44,26 @@ section h2 {
     margin: 25px;
     border-radius: 5px;
     border: 5px solid black;
-
 }
+
+
  .tarjetas image {
     width: 450px;
    
  }
+
  .tarjetas h3{
     color: black;
 }
+.reglamentacion {
+    background-color: #686565; 
+    margin: 25px;
+    border-radius: 5px;
+    border: 5px solid black;
+
+
+}
+
 
 h2{
 
@@ -83,6 +94,18 @@ h2{
 
  }
 
+ main {
+    position: fixed;
+    right: 25px;
+    bottom: 5px;
+
+}
+
+footer{ 
+    background-color: #686565;
+    margin: 15px;
+
+}
 
 @media only screen and (min-width: 412px) {
     header ul {

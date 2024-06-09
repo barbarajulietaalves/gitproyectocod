@@ -67,3 +67,8 @@ section p {
 body {
     background-color: #929090;
 }
+
+footer a{
+    position: fixed;
+    bottom: 25px;
+}

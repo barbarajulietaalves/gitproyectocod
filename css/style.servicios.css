@@ -46,17 +46,12 @@ h1{
     justify-content: center;
 }
 
+.enlace-whatsapp {
+    position: fixed;
+    bottom: 35px;
+    right: 25px;
 
-.redes {
-    margin-top: 55px;
-    display: flex;
-    justify-content:;
-    background-color: #686565;  
-    padding: 10px; 
-     border: 5px solid black
- }   
+}
+ 
 
- .redes li ul{
 
-     text-align: none;
- }

@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    border: #0a0a0a;
+    
+     
+
+}
+
+header a{
+    text-decoration: none;
+    color: #686565;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: end;
+    
+}
+header ul{
+    display: flex;  
+    list-style: none; 
+}
+nav ul li {
+    margin: 6px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #686565;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: end; 
+    transition: 3s;
+
+}
+
+nav ul li a:hover {
+    color: white;
+    margin: 10px;
+
+}
+.imagen {
+    width: 90%;
+}
+.container{
+    background-color: #686565;
+    width: 950px; ;
+    height: 550px;
+    padding: 10px;
+    margin: 15px;
+    margin-right: 150px ;
+    border-radius: 10px;
+    display: flex;
+    gap: 35px;
+    border: 5px solid black;
+    
+}
+
+div image {
+    width: 450px;
+    height: 300px;
+    
+    margin-bottom: 35px;
+}
+ 
+ div.formulario {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    align-content: center;
+    margin-top: 15px;
+    width: 150px;
+
+    
+    
+ }
+ 
+ h1{
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+ }
+  p{
+    display: flex;
+
+  }
+ .redes {
+    margin-top: 45px;
+    display: flex;
+   
+ }    
+
+div a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    align-content: center;
+    margin: 10px;
+   background-color: rgb(12, 12, 12);
+   border-radius: 5px;
+}
+ 
+body{
+    background-color: rgb(185, 179, 179);
+    
+}
+    
+     
+

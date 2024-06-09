@@ -37,6 +37,8 @@ section h2 {
     background-color: #686565;display: flex;
     justify-content: center;
 }
+    
+
 
 section p {
     background-color: #686565;
@@ -44,4 +46,29 @@ section p {
     border-bottom: 15px;
     padding-top: 30 px ;
 
+}
+
+.redes {
+    margin-top: 45px;
+    display: flex;
+   
+ }    
+
+ div a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    align-content: center;
+    margin: 10px;
+   background-color: rgb(12, 12, 12);
+   border-radius: 5px;
+}
+
+body {
+    background-color: #929090;
+}
+
+footer a{
+    position: fixed;
+    bottom: 25px;
 }

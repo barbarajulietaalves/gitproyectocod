@@ -46,3 +46,12 @@ h1{
     justify-content: center;
 }
 
+.enlace-whatsapp {
+    position: fixed;
+    bottom: 35px;
+    right: 25px;
+
+}
+ 
+
+

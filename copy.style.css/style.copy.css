@@ -3,11 +3,7 @@
     padding: 0;
 }
 header {
-    background-color: black;
-    justify-content: space-between;
-    align-items: center;
-    margin: 5px;
-    display: flex;
+    
 }
 header a{
     text-decoration: none;

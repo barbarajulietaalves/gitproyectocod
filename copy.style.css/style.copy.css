@@ -3,7 +3,13 @@
     padding: 0;
 }
 header {
-    
+
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+     
 }
 header a{
     text-decoration: none;
@@ -14,7 +20,7 @@ header a{
 }
 header ul{
     display: block;  
-    list-style: none; 
+    list-style: none;
 }
 nav ul li {
     margin: 6px;

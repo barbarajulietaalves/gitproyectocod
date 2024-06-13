@@ -2,32 +2,281 @@
   margin: 0;
   padding: 0;
 }
+ body{
+  margin: 5px;
+  background-color: rgb(119, 133, 133);
+  
+ }
 
 header {
-  display: flex;
+  display:flex;
   background-color: black;
   justify-content: space-between;
+  border-bottom: 3px solid grey;
   align-items: center;
+}
+ header nav ul  {
+  display:block;
+  list-style-type: none;
+  
+ 
+ }
+
+header nav ul li{
   margin: 5px;
+   
 }
-header nav {
-  transition: 3s;
-}
-header nav ul {
-  display: block;
-  list-style: none;
-  margin: 6px;
-}
-header nav ul li a {
-  text-decoration: none;
-  color: #686565;
+header nav ul li a{
+  display: flex;
+  color: grey;
+  text-decoration:none ;
   font-family: Arial, Helvetica, sans-serif;
-  justify-content: end;
-  transition: 3s;
+  font: size 0.5px; ;
+  
+
 }
-header nav ul li a a {
-  color: white;
-  margin: 10px;
+.portada {
+  display: block;
+  margin: 10px; ;
 }
 
-/*# sourceMappingURL=style.css.map */
+
+ .encabezado {
+  background-color: rgb(147, 142, 142);
+  padding: 35px; ;
+  margin: 10px;
+  border-radius: 15px;
+  border: 3px solid black;
+  
+  
+
+ }
+ .encabezado h1 {
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+
+
+ }
+.encabezado p{
+ margin: 15px ;
+ justify-content: center;
+ font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+.foto-portada {
+ margin-left: 10px;
+ margin-top: 10px;
+ 
+
+}
+ 
+.foto-portada img {
+  border-radius: 15px;
+  border: 3px solid black;
+}
+.enlace-whatsapp{
+  position: fixed;
+  right: 40px;
+  bottom: 5px;
+}
+.enlace-whatsapp a img{
+  width: 35px;
+}
+footer h6{
+   justify-content: center;
+   font-family: Arial, Helvetica, sans-serif;
+   color: black;
+} 
+
+
+/* QUIENES SOMOS*/
+
+
+.imagen-quienes{
+  padding-top: 20px;
+  width: 490px;
+  height: 450px;
+  margin-top: 35px;
+  border-radius : 15px;
+  border: 3px solid black;
+}
+
+.card {
+  
+  margin-top: 35px;
+  background-color: rgb(119, 133, 133);
+  border: 3px solid black;
+}
+
+.card-body{
+
+  background-color: rgb(147, 142, 142);
+  margin:  35px;
+  border-radius : 15px;
+}
+
+
+
+.imagenes-acuerdo{
+  padding-top: 30px;
+  margin-top: 35px;
+  border-radius : 15px;
+  border: 3px solid black;
+  width: 490px;
+  height: 450px;
+}
+
+
+/* SERVICIOS*/
+
+h1{
+  text-align: center;
+}
+
+
+/* PUBLICACIONES*/
+
+.tarjetas{
+  display: flex;
+  margin: 10px;
+  gap: 115px;
+}
+.reglamentacion {
+  width: 470px;
+  height: 360px;
+  background-color: rgb(147, 142, 142);
+  padding: 15px;;
+  border-radius: 10px;
+  border: 3px solid black;
+  margin: 15px ;
+  
+}
+
+div p {
+  columns: 2;
+}
+
+.foto-tarjeta{
+  width: 480;
+  height: 350;
+  margin-left: 95px;
+  border-radius: 9px;
+  border: 5px solid black;
+}
+
+h2{
+  margin: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: rgb(147, 142, 142);
+  border-radius: 3px;
+  border: 5px solid black;
+  text-align: center;
+  
+}
+
+.enlace-whatsapp-1{
+  position: fixed;
+  right: 40px;
+  bottom: 5px;
+}
+/*CONTACO*/
+.container-contacto{
+ display: flex;
+ margin-left: 120px;
+ gap: 55px;
+ 
+
+}
+.imagen-lapto{
+  padding-top: 45px;
+  width: 280;
+  height: 350;
+  border-radius: 8px;
+  border: 5px solid black;
+ 
+}
+.formulario{
+
+  display: flex;
+  width: 880;
+  height: 440;
+  border-radius: 8px;
+  border: 5px solid black;
+  padding: 15px;
+}
+
+form{
+  display: block;
+  justify-content: center;
+  margin: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px ;
+  color: black; 
+  
+}
+
+.consultas{
+  margin: 15;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  align-items: center;
+  border-radius: 3px ;
+}
+
+.redes-sociales{
+
+  padding: 45px;
+  display: block;
+  border: 5px solid black ;
+  border-radius: 15px;
+  grid-row: 5px;
+
+
+}
+a{
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  border: 2px black;
+  font-size: 15px;
+}
+
+h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px ;
+  border-radius: 15px ;
+  margin: 25px;
+}
+/*media query */
+
+@media only screen and (min-width: 360px) {
+
+  header nav ul {
+    display: flex;
+    align-items: center;
+  }
+  .portada {
+    display: flex;
+  }
+  .encabezado h1{
+    font-size: 65px;
+  }
+  .portada p{
+    column-count: 2;
+
+  }
+  .encabezado{
+    padding: 75px;
+  }
+  
+}
+
+
+ 
+  
+    
+
+

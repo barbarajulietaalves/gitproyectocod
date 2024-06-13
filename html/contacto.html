@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arrieta & asociados/contacto</title>
-    <link rel="stylesheet" href="../css/style.contacto.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header>
@@ -14,72 +14,76 @@
             <ul>
 
                 <li><a href="../index.html">inicio</a></li>
-                <li><a href="../html/quienessomos.html">quienes somos</a></li>
-                <li><a href="../html/servicios.html">servicios</a></li>
-                <li><a href="../html/publicaciones.html">publicaciones</a></li>
-                <li><a href="../html/contacto.html">contacto</a></li>
+                <li><a href="./quienessomos.html">quienes somos</a></li>
+                <li><a href="./servicios.html">servicios</a></li>
+                <li><a href="./publicaciones.html">publicaciones</a></li>
+                <li><a href="./contacto.html">contacto</a></li>
             </ul>
         </nav>
     </header>
     
+  
+    <h1 class="consultas">
+        Consultenos
+    </h1>
     
-    
-<section class="container">
-        <h1>
-            Consultas
-            </h1>
-        <div>
-            <img src="../imagenes/lapto.jfif" alt="lapto">
-        </div>
-            
+<section class="container-contacto">
+        
+    <div class="imagen-lapto">
+        <img src="../imagenes/lapto.jfif"width="400px"height="350px"  alt="lapto">
+    </div> 
+        
+
       
       <div class="formulario">
-       <form action="form.php" method="post">
 
-        <label for=" Apelldo">Apellido</label>
+        <form action="for.php" method="post">
 
-        <input type="text" name="apellido" id="apellido" >
+           <label for="apellido">Apellido</label>
 
-        <label for="nombre">Nombre</label>
+            <input type="text" name="apellido" id="apellido" >
 
-        <input type="text" name="Nombre" id="nombre">
+            <label for="nombre">Nombre</label>
+    
+            <input type="text" name="Nombre" id="nombre">
+    
+            <label for="mail">correo@electronico</label>
+    
+            <input type="email" name="@mail" id="correoelectronico"> 
 
-        <label for="mail">correo@electronico</label>
-
-        <input type="email" name="@mail" id="correoelectronico">
-
-        <p>
-        COMENTARIOS
-        </p>
-         <textarea name="" id="" cols="30" rows="10"></textarea>
-
-
-         <p>Terminios y condiciones</p>
-
-         <input type="checkbox" name="terminos y condiciones" id="terminos">
-         <input type="submit" value="enviar">
+            <h3>Comentarios</h3>
         
-       </form>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
 
-       <section class="redes">
-        
-            
-              <div class="redes sociales">
-                <img src="../imagenes/ig.png " width="35" alt="logo ig">
-                <a href="#">@arrietayasociados.legales</a>
-        
-                <img src="../imagenes/descarga (1).png" width="45"alt="logo fc" >
-                <a href="#">fcarrieta.asociadoslegales</a>
-            
+        <h4>Terminios y Condiciones</h4>
+
+        <input type="checkbox" name="terminos y condiciones" id="terminos">
+        <input type="submit" value="enviar">
+    
+
+        </form>
+
+      </div>
+      
+       <div class="redes-sociales">
+
+        <h3>
+            Seginos
+        </h3>
 
 
-              </div>
-                
-        
-      </section>
-        
-        
-       
-        
+         <img src="../imagenes/ig.png"width="85" alt="logo-ig">
+        <a href="#">@arrietayasociados.legales</a>
+
+         <img src="../imagenes/descarga (1).png" width="85"alt="logo fc" >
+        <a href="#">fcarrieta.asociadoslegales</a>
+
+        <a href="https://web.whatsapp.com/"><img src="../imagenes/whatsapp.png" alt="icono"></a>
+
+      
+       </div> 
+
+     </section>
+           
 </body>
 </html>

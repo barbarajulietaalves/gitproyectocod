@@ -1,10 +1,42 @@
+//base//
+@import "./base/reset.scss";
+
+//componentes//
+@import "./componentes/titulos.scss";
+@import "./componentes/enlaces.scss";
+@import "./componentes/titulos.scss";
+@import "./componentes/clases.scss";
 
 
-@import "./bases/reset";
+//layout//
+@import "./layout/contenedor.scss";
+@import "./layout/footer.scss";
+@import "./layout/portada.scss";;
 @import "./layout/header";
-@import "./layout/portada";
 
-@import "./layout/-mediaq.scss";
+
+
+//utilitis//
+@import "./utilitis/mixins.scss";
+
+
+//mediaqueris//
+@import "./mediaq/mediaq.scss";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

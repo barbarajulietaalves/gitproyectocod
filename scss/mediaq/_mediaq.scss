@@ -1,0 +1,25 @@
+@media only screen and (min-width: 360px) {
+  
+    header nav ul {
+      display: flex;
+      align-items: center;
+    }
+    .portada {
+      display: flex;
+    }
+    .encabezado h1{
+      font-size: 65px;
+    }
+    .portada p{
+      column-count: 2;
+  
+    }
+    .encabezado{
+      padding: 75px;
+    }
+    
+  }
+  
+  
+    
+    

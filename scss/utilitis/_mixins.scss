@@ -1,8 +1,7 @@
-@mixin enlace {
-    margin: 5px;
+@mixin parrafo {
+    
+    columns: 2;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    border: 2px black;
-    font-size: 15px;
 
 }
